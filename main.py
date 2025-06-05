@@ -47,14 +47,6 @@ from cnnClassifier.pipeline.stage_04_model_evaluation import EvaluationPipeline
 
 
 STAGE_NAME = "Evaluation stage"
-
-import dagshub
-dagshub.init(repo_owner='lxxxng', repo_name='chest_cancer_mlflow', mlflow=True)
-
-import mlflow
-with mlflow.start_run():
-	mlflow.log_param('parameter name', 'value')
-	mlflow.log_metric('metric name', 1)
   
 try:
 	import dagshub

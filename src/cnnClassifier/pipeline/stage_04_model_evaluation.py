@@ -20,6 +20,13 @@ class EvaluationPipeline:
         evaluation.log_into_mlflow()
 
 if __name__ == '__main__':
+    import dagshub
+    dagshub.init(repo_owner='lxxxng', repo_name='chest_cancer_mlflow', mlflow=True)
+
+    import mlflow
+    with mlflow.start_run():
+        mlflow.log_param('parameter name', 'value')
+        mlflow.log_metric('metric name', 1)
  
     try:
         logger.info(f"*******************")

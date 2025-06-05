@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/wu_li/OneDrive/Desktop/chest_cancer_mlflow/mlruns/0/34bc11f709af49e09a4c0c5168af1cc5/artifacts
+end_time: 1749147649289
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 34bc11f709af49e09a4c0c5168af1cc5
+run_name: carefree-bee-571
+run_uuid: 34bc11f709af49e09a4c0c5168af1cc5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749147614579
+status: 3
+tags: []
+user_id: Lixing
