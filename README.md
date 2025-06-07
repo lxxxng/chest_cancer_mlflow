@@ -90,7 +90,7 @@ DVC
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+    - Save the URI: 261910203218.dkr.ecr.us-east-1.amazonaws.com/cancer
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -129,3 +129,5 @@ DVC
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
+
+# Tutorial from https://www.youtube.com/watch?v=-NOIWzjJK-4&list=WL&index=15&t=38s
